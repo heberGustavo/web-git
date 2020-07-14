@@ -9,6 +9,9 @@
     <!--Font-Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -44,129 +47,253 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-md-9">
-                <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                        aria-labelledby="v-pills-home-tab">fsdfksdfjskldfsdf</div>
-                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                        aria-labelledby="v-pills-profile-tab">
-                        fsdfk2342sdfjskldfsdf</div>
-                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
-                        aria-labelledby="v-pills-messages-tab">
-                        fsdfk56767sdfjskldfsdf</div>
-                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
-                        aria-labelledby="v-pills-settings-tab">
-                        fsdfksdf23234654jskldfsdf</div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link active fa fa-comments" id="v-pills-home-tab" data-toggle="pill"
-                        href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"></a>
-                    <a class="nav-link fa fa-user" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
-                        role="tab" aria-controls="v-pills-profile" aria-selected="false"></a>
-                    <a class="nav-link fa fa-newspaper-o	
-                    " id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
-                        aria-controls="v-pills-messages" aria-selected="false"></a>
-                    <a class="nav-link fa fa-info-circle" id="v-pills-settings-tab" data-toggle="pill"
-                        href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"></a>
-                    <a class="nav-link fa fa-share-alt" id="v-pills-settings-tab" data-toggle="pill"
-                        href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"></a>
-                    <a class="nav-link fa fa-share-alt" id="v-pills-settings-tab" data-toggle="pill"
-                        href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"></a>
-                    <span class="material-icons">
-                        more_horiz
-                    </span>
 
-                </div>
-            </div>
         </div>
 
         <div class="row">
 
-            <div class="col-md-3 order-md-2 mb-4 mt-2">
-                <h4 class="d-flex justify-content-between align-items-center mb-3">
-                    <span class="text-muted fs-16">BATE-PAPO</span>
-                </h4>
-                <div class="add-scroll">
-                    <ul class="list-group">
-                        <li class="list-group-item d-flex justify-content-between lh-condensed">
-                            <div>
-                                <h6 class="my-0">Usuário 1</h6>
-                                <small class="text-muted">Mensagem Usuário</small>
+            <div class="col-md-3 order-md-2">
+                <div id="corpo-tab" class="tab-content" id="v-pills-tabContent">
+                    <!--Chat-->
+                    <div class="tab-pane fade show active pt-20" id="v-pills-chat" role="tabpanel"
+                        aria-labelledby="v-pills-chat-tab">
+
+                        <h4 class="d-flex justify-content-between align-items-center mb-3 titulo-sessao">
+                            <span class="text-dark fs-12 pl-3 align-self-start">BATE-PAPO</span>
+                        </h4>
+                        <div class="add-scroll">
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                    <div class="d-flex">
+                                        <img src="img/user.jpg" alt="" class="rounded-circle img-users-bate-papo">
+                                        <div class="info-users">
+                                            <h6 class="my-0">Usuário 1</h6>
+                                            <small class="text-muted">Mensagem Usuário</small>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                    <div class="d-flex  ">
+                                        <img src="img/user.jpg" alt="" class="rounded-circle img-users-bate-papo">
+                                        <div class="info-users">
+                                            <h6 class="my-0">Usuário 1</h6>
+                                            <small class="text-muted">Mensagem Usuário</small>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                    <div class="d-flex  ">
+                                        <img src="img/user.jpg" alt="" class="rounded-circle img-users-bate-papo">
+                                        <div class="info-users">
+                                            <h6 class="my-0">Usuário 1</h6>
+                                            <small class="text-muted">Mensagem Usuário</small>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                    <div class="d-flex  ">
+                                        <img src="img/user.jpg" alt="" class="rounded-circle img-users-bate-papo">
+                                        <div class="info-users">
+                                            <h6 class="my-0">Usuário 1</h6>
+                                            <small class="text-muted">Mensagem Usuário</small>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                    <div class="d-flex  ">
+                                        <img src="img/user.jpg" alt="" class="rounded-circle img-users-bate-papo">
+                                        <div class="info-users">
+                                            <h6 class="my-0">Usuário 1</h6>
+                                            <small class="text-muted">Mensagem Usuário</small>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                    <div class="d-flex  ">
+                                        <img src="img/user.jpg" alt="" class="rounded-circle img-users-bate-papo">
+                                        <div class="info-users">
+                                            <h6 class="my-0">Usuário 1</h6>
+                                            <small class="text-muted">Mensagem Usuário</small>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                    <div class="d-flex  ">
+                                        <img src="img/user.jpg" alt="" class="rounded-circle img-users-bate-papo">
+                                        <div class="info-users">
+                                            <h6 class="my-0">Usuário 1</h6>
+                                            <small class="text-muted">Mensagem Usuário</small>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                    <div class="d-flex  ">
+                                        <img src="img/user.jpg" alt="" class="rounded-circle img-users-bate-papo">
+                                        <div class="info-users">
+                                            <h6 class="my-0">Usuário 1</h6>
+                                            <small class="text-muted">Mensagem Usuário</small>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <form class="pt-2">
+                            <div class="input-group">
+                                <input type="text" id="txtMensagem" class="form-control" placeholder="Mensagem">
+                                <div class="input-group-append">
+                                    <button type="submit" id="btnEnviarMensagem" class="btn btn-ligth"><i
+                                            class="fa fa-paper-plane text-info"></i></button>
+                                </div>
                             </div>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between lh-condensed">
-                            <div>
-                                <h6 class="my-0">Usuário 1</h6>
-                                <small class="text-muted">Mensagem Usuário</small>
+                        </form>
+
+                    </div>
+
+                    <!--Pergunte-->
+                    <div class="tab-pane fade pt-20" id="v-pills-pergunte" role="tabpanel"
+                        aria-labelledby="v-pills-pergunte-tab">
+
+                        <h4 class="d-flex justify-content-between align-items-center mb-3 titulo-sessao">
+                            <span class="text-dark fs-12 pl-3">PERGUNTE AO PALESTRANTE</span>
+                        </h4>
+                        <div class="add-scroll">
+
+                            <span class="text-muted fs-12 pl-3 negrito-500">PERGUNTAS PARA:</span>
+                            <div class="info-palestrante">
+                                <img src="img/user.jpg" alt="">
+                                <span class="align-self-start pl-3 fs-12">Palestrante 1</span>
                             </div>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between lh-condensed">
-                            <div>
-                                <h6 class="my-0">Usuário 1</h6>
-                                <small class="text-muted">Mensagem Usuário</small>
-                            </div>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between lh-condensed">
-                            <div>
-                                <h6 class="my-0">Usuário 1</h6>
-                                <small class="text-muted">Mensagem Usuário</small>
-                            </div>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between lh-condensed">
-                            <div>
-                                <h6 class="my-0">Usuário 1</h6>
-                                <small class="text-muted">Mensagem Usuário</small>
-                            </div>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between lh-condensed">
-                            <div>
-                                <h6 class="my-0">Usuário 1</h6>
-                                <small class="text-muted">Mensagem Usuário</small>
-                            </div>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between lh-condensed">
-                            <div>
-                                <h6 class="my-0">Usuário 1</h6>
-                                <small class="text-muted">Mensagem Usuário</small>
-                            </div>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between lh-condensed">
-                            <div>
-                                <h6 class="my-0">Usuário 1</h6>
-                                <small class="text-muted">Mensagem Usuário</small>
-                            </div>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between lh-condensed">
-                            <div>
-                                <h6 class="my-0">Usuário 1</h6>
-                                <small class="text-muted">Mensagem Usuário</small>
-                            </div>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between lh-condensed">
-                            <div>
-                                <h6 class="my-0">Usuário 1</h6>
-                                <small class="text-muted">Mensagem Usuário</small>
-                            </div>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between lh-condensed">
-                            <div>
-                                <h6 class="my-0">Usuário 1</h6>
-                                <small class="text-muted">Mensagem Usuário</small>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <form class="pt-2">
-                    <div class="input-group">
-                        <input type="text" id="txtMensagem" class="form-control" placeholder="Mensagem">
-                        <div class="input-group-append">
-                            <button type="submit" id="btnEnviarMensagem" class="btn btn-ligth"><i
-                                    class="fa fa-paper-plane text-info"></i></button>
+
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                    <div class="d-flex">
+                                        <div class="info-pergunte">
+                                            <div class="cabecalho-pergunte">
+                                                <img src="img/user.jpg" alt=""
+                                                    class="rounded-circle img-users-bate-papo">
+                                                <h6 class="my-0 ml-2 fs-13">Usuário</h6>
+                                            </div>
+                                            <div class="conteudo-pergunte">
+                                                <small class="text-muted">Lorem Ipsum is simply dummy text of the
+                                                    printing
+                                                    and typesetting industry.</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                    <div class="d-flex">
+                                        <div class="info-pergunte">
+                                            <div class="cabecalho-pergunte">
+                                                <img src="img/user.jpg" alt=""
+                                                    class="rounded-circle img-users-bate-papo">
+                                                <h6 class="my-0 ml-2 fs-13">Usuário</h6>
+                                            </div>
+                                            <div class="conteudo-pergunte">
+                                                <small class="text-muted">Lorem Ipsum is simply dummy text of the
+                                                    printing
+                                                    and typesetting industry.</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                    <div class="d-flex">
+                                        <div class="info-pergunte">
+                                            <div class="cabecalho-pergunte">
+                                                <img src="img/user.jpg" alt=""
+                                                    class="rounded-circle img-users-bate-papo">
+                                                <h6 class="my-0 ml-2 fs-13">Usuário</h6>
+                                            </div>
+                                            <div class="conteudo-pergunte">
+                                                <small class="text-muted">Lorem Ipsum is simply dummy text of the
+                                                    printing
+                                                    and typesetting industry.</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                    <div class="d-flex">
+                                        <div class="info-pergunte">
+                                            <div class="cabecalho-pergunte">
+                                                <img src="img/user.jpg" alt=""
+                                                    class="rounded-circle img-users-bate-papo">
+                                                <h6 class="my-0 ml-2 fs-13">Usuário</h6>
+                                            </div>
+                                            <div class="conteudo-pergunte">
+                                                <small class="text-muted">Lorem Ipsum is simply dummy text of the
+                                                    printing
+                                                    and typesetting industry.</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                    <div class="d-flex">
+                                        <div class="info-pergunte">
+                                            <div class="cabecalho-pergunte">
+                                                <img src="img/user.jpg" alt=""
+                                                    class="rounded-circle img-users-bate-papo">
+                                                <h6 class="my-0 ml-2 fs-13">Usuário</h6>
+                                            </div>
+                                            <div class="conteudo-pergunte">
+                                                <small class="text-muted">Lorem Ipsum is simply dummy text of the
+                                                    printing
+                                                    and typesetting industry.</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                    <div class="d-flex">
+                                        <div class="info-pergunte">
+                                            <div class="cabecalho-pergunte">
+                                                <img src="img/user.jpg" alt=""
+                                                    class="rounded-circle img-users-bate-papo">
+                                                <h6 class="my-0 ml-2 fs-13">Usuário</h6>
+                                            </div>
+                                            <div class="conteudo-pergunte">
+                                                <small class="text-muted">Lorem Ipsum is simply dummy text of the
+                                                    printing
+                                                    and typesetting industry.</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                </form>
+                    <div class="tab-pane fade" id="v-pills-enquete" role="tabpanel"
+                        aria-labelledby="v-pills-enquete-tab">
+                        fsdfk56767sdfjskldfsdf</div>
+                    <div class="tab-pane fade" id="v-pills-link" role="tabpanel" aria-labelledby="v-pills-link-tab">
+                        fsdfksdf23234654jskldfsdf</div>
+                </div>
+            </div>
+            <div class="col-md-1 order-md-2">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active fas fa-comment-alt text-center" id="v-pills-chat-tab" data-toggle="pill"
+                        href="#v-pills-chat" role="tab" aria-controls="v-pills-chat" aria-selected="true">
+                        <span class="alinhamento-icons-tabs">Chat</span>
+                    </a>
+
+                    <a class="nav-link far fa-user text-center" id="v-pills-pergunte-tab" data-toggle="pill"
+                        href="#v-pills-pergunte" role="tab" aria-controls="v-pills-pergunte" aria-selected="false">
+                        <span class="alinhamento-icons-tabs">Pergunte</span>
+                    </a>
+
+                    <a class="nav-link far fa-list-alt text-center	
+                    " id="v-pills-enquete-tab" data-toggle="pill" href="#v-pills-enquete" role="tab"
+                        aria-controls="v-pills-enquete" aria-selected="false">
+                        <span class="alinhamento-icons-tabs">Enquete</span>
+                    </a>
+
+                    <a class="nav-link fas fa-link text-center" id="v-pills-link-tab" data-toggle="pill"
+                        href="#v-pills-link" role="tab" aria-controls="v-pills-link" aria-selected="false">
+                        <span class="alinhamento-icons-tabs">Links</span>
+                    </a>
+                </div>
             </div>
 
             <div class="col-md-8 order-md-1 mt-2">

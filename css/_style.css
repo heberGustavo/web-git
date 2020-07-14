@@ -1,29 +1,38 @@
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+body{
+  background: #F5F8FD;
 }
-
-@media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-    }
-}
-
 /*AQUI*/
+
+.pt-20{
+  padding-top: 20px;
+}
+
 .p-40{
     padding-right: 40px;
 }
 
-.fs-16{
-  font-size: 16px;
+.fs-12{
+  font-size: 12px;
+}
+
+.fs-13{
+  font-size: 13px;
+}
+
+.negrito-500{
+  font-weight: 500;
+}
+
+.negrito-700{
+  font-weight: 700;
+}
+
+.negrito-900{
+  font-weight: 900;
 }
 
 .add-scroll{
-  height: 510px;
+  height: 445px;
   overflow-x: hidden;
   overflow-y: scroll; 
   border-bottom: 1px solid lightgrey;
@@ -83,6 +92,56 @@
 
 #txtMensagem{
   border-right: none;
+}
+
+/*Tabs*/
+#corpo-tab{
+  background: white;
+}
+
+.titulo-sessao{
+  border-bottom: 1px solid #d3d3d3;
+  padding-bottom: 20px;
+}
+.alinhamento-icons-tabs{
+  display: block;
+}
+
+.list-group-item{
+  border: none;
+}
+
+.img-users-bate-papo{
+  width: 30px;
+  height: 30px;
+  align-self: center;
+}
+
+.info-users{
+  display: inline-block;
+  padding-left: 15px;
+}
+
+.info-palestrante{
+  padding: 15px 10px 15px 10px;
+  margin: 0 5px;
+  display: flex;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.info-palestrante img{
+  width: 70px;
+  height: 70px;
+  border-radius: 0px 10px 10px 10px;
+}
+
+.cabecalho-pergunte h6{
+  display: inline-block;
+}
+
+.conteudo-pergunte{
+  margin-left: 42px;
+  margin-top: -8px;
 }
 
 /*Custom Scroll*/
