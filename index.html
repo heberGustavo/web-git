@@ -52,12 +52,11 @@
 
         <div class="row">
 
-            <div class="col-md-3 order-md-2">
+            <div class="col-md-3 order-md-2 pr-0">
                 <div id="corpo-tab" class="tab-content" id="v-pills-tabContent">
                     <!--Chat-->
                     <div class="tab-pane fade show active pt-20" id="v-pills-chat" role="tabpanel"
                         aria-labelledby="v-pills-chat-tab">
-
                         <h4 class="d-flex justify-content-between align-items-center mb-3 titulo-sessao">
                             <span class="text-dark fs-12 pl-3 align-self-start">BATE-PAPO</span>
                         </h4>
@@ -137,16 +136,17 @@
                                 </li>
                             </ul>
                         </div>
-                        <form class="pt-2">
-                            <div class="input-group">
-                                <input type="text" id="txtMensagem" class="form-control" placeholder="Mensagem">
-                                <div class="input-group-append">
-                                    <button type="submit" id="btnEnviarMensagem" class="btn btn-ligth"><i
-                                            class="fa fa-paper-plane text-info"></i></button>
+                        <div class="corpo-form">
+                            <form class="pt-2">
+                                <div class="input-group">
+                                    <input type="text" id="txtMensagem" class="form-control" placeholder="Mensagem">
+                                    <div class="input-group-append">
+                                        <button type="submit" id="btnEnviarMensagem" class="btn btn-ligth"><i
+                                                class="fa fa-paper-plane text-info"></i></button>
+                                    </div>
                                 </div>
-                            </div>
-                        </form>
-
+                            </form>
+                        </div>
                     </div>
 
                     <!--Pergunte-->
@@ -264,14 +264,228 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="v-pills-enquete" role="tabpanel"
+
+                    <!--Enquete-->
+                    <div class="tab-pane fade pt-20" id="v-pills-enquete" role="tabpanel"
                         aria-labelledby="v-pills-enquete-tab">
-                        fsdfk56767sdfjskldfsdf</div>
-                    <div class="tab-pane fade" id="v-pills-link" role="tabpanel" aria-labelledby="v-pills-link-tab">
-                        fsdfksdf23234654jskldfsdf</div>
+
+                        <h4 class="d-flex justify-content-between align-items-center mb-3 titulo-sessao">
+                            <span class="text-dark fs-12 pl-3">PESQUISA</span>
+                        </h4>
+                        <div class="add-scroll">
+                            <div class="avaliacao-pesquisa">
+                                <div class="classsificacao">
+                                    <div class="descricao-pesquisa">
+                                        <span class="fs-14">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting
+                                            industry.
+                                        </span>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 item-classificacao">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <span class="titulo-item-classificacao">ÓTIMO</span>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <label class="container-check">
+                                                        <input type="checkbox" checked="checked">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 item-classificacao">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <span class="titulo-item-classificacao">BOM</span>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <label class="container-check">
+                                                        <input type="checkbox">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 item-classificacao">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <span class="titulo-item-classificacao">REGULAR</span>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <label class="container-check">
+                                                        <input type="checkbox">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 item-classificacao">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <span class="titulo-item-classificacao">RUIM</span>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <label class="container-check">
+                                                        <input type="checkbox">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control textarea-custom" placeholder="Comente..." id=""
+                                            rows="1"></textarea>
+                                    </div>
+
+                                    <div class="descricao-pesquisa">
+                                        <span class="fs-14">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting
+                                            industry.
+                                        </span>
+                                    </div>
+
+                                    <div class="alinhamento-range">
+                                        <i class="fas fa-thumbs-up mao-esquerda"></i>
+                                        <form class="formulario-range">
+                                            <div class="form-group m-0">
+                                                <input type="range" class="form-control-range" id="formControlRange">
+                                            </div>
+                                        </form>
+                                        <i class="fas fa-thumbs-up"></i>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control textarea-custom" placeholder="Comente..." id=""
+                                            rows="1"></textarea>
+                                    </div>
+                                    <button class="btn">ENVIAR</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!--Link-->
+                    <div class="tab-pane fade pt-20" id="v-pills-link" role="tabpanel"
+                        aria-labelledby="v-pills-link-tab">
+
+                        <h4 class="d-flex justify-content-between align-items-center mb-3 titulo-sessao">
+                            <span class="text-dark fs-12 pl-3">LINK</span>
+                        </h4>
+                        <div class="add-scroll">
+
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                    <div class="d-flex">
+                                        <div class="info-pergunte">
+                                            <div class="cabecalho-pergunte">
+                                                <img src="img/user.jpg" alt=""
+                                                    class="rounded-circle img-users-bate-papo">
+                                                <h6 class="my-0 ml-2 fs-13">Usuário 1</h6>
+                                            </div>
+                                            <div class="conteudo-pergunte">
+                                                <small class="text-muted">Lorem Ipsum is simply dummy text of the
+                                                    printing
+                                                    and typesetting industry.</small>
+                                                <button class="btn btn-link-form btn-sm">Link</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                    <div class="d-flex">
+                                        <div class="info-pergunte">
+                                            <div class="cabecalho-pergunte">
+                                                <img src="img/user.jpg" alt=""
+                                                    class="rounded-circle img-users-bate-papo">
+                                                <h6 class="my-0 ml-2 fs-13">Usuário 1</h6>
+                                            </div>
+                                            <div class="conteudo-pergunte">
+                                                <small class="text-muted">Lorem Ipsum is simply dummy text of the
+                                                    printing
+                                                    and typesetting industry.</small>
+                                                <button class="btn btn-link-form btn-sm">Link</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                    <div class="d-flex">
+                                        <div class="info-pergunte">
+                                            <div class="cabecalho-pergunte">
+                                                <img src="img/user.jpg" alt=""
+                                                    class="rounded-circle img-users-bate-papo">
+                                                <h6 class="my-0 ml-2 fs-13">Usuário 1</h6>
+                                            </div>
+                                            <div class="conteudo-pergunte">
+                                                <small class="text-muted">Lorem Ipsum is simply dummy text of the
+                                                    printing
+                                                    and typesetting industry.</small>
+                                                <button class="btn btn-link-form btn-sm">Link</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                    <div class="d-flex">
+                                        <div class="info-pergunte">
+                                            <div class="cabecalho-pergunte">
+                                                <img src="img/user.jpg" alt=""
+                                                    class="rounded-circle img-users-bate-papo">
+                                                <h6 class="my-0 ml-2 fs-13">Usuário 1</h6>
+                                            </div>
+                                            <div class="conteudo-pergunte">
+                                                <small class="text-muted">Lorem Ipsum is simply dummy text of the
+                                                    printing
+                                                    and typesetting industry.</small>
+                                                <button class="btn btn-link-form btn-sm">Link</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                    <div class="d-flex">
+                                        <div class="info-pergunte">
+                                            <div class="cabecalho-pergunte">
+                                                <img src="img/user.jpg" alt=""
+                                                    class="rounded-circle img-users-bate-papo">
+                                                <h6 class="my-0 ml-2 fs-13">Usuário 1</h6>
+                                            </div>
+                                            <div class="conteudo-pergunte">
+                                                <small class="text-muted">Lorem Ipsum is simply dummy text of the
+                                                    printing
+                                                    and typesetting industry.</small>
+                                                <button class="btn btn-link-form btn-sm">Link</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                                    <div class="d-flex">
+                                        <div class="info-pergunte">
+                                            <div class="cabecalho-pergunte">
+                                                <img src="img/user.jpg" alt=""
+                                                    class="rounded-circle img-users-bate-papo">
+                                                <h6 class="my-0 ml-2 fs-13">Usuário 1</h6>
+                                            </div>
+                                            <div class="conteudo-pergunte">
+                                                <small class="text-muted">Lorem Ipsum is simply dummy text of the
+                                                    printing
+                                                    and typesetting industry.</small>
+                                                <button class="btn btn-link-form btn-sm">Link</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-            <div class="col-md-1 order-md-2">
+            <div class="col-md-1 order-md-2 pl-0">
                 <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                     <a class="nav-link active fas fa-comment-alt text-center" id="v-pills-chat-tab" data-toggle="pill"
                         href="#v-pills-chat" role="tab" aria-controls="v-pills-chat" aria-selected="true">
