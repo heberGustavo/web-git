@@ -21,7 +21,8 @@
   <!-- Header -->
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
         aria-controls="navbarTogglerDemo01" aria-expanded="true" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -46,11 +47,12 @@
           <span>
             <img src="img/user.jpg" id="img-user">
           </span>
-          <span>
-            <i class="fa fa-arrow-right"></i>
+          <span class="seta-principal">
+            <i class="fa fa-arrow-right mr-0"></i>
           </span>
         </div>
       </section>
+      </div>
     </nav>
   </header>
   <!---------------->
@@ -478,26 +480,26 @@
       </div>
 
       <div class="col-md-1 order-md-2 pl-0">
-        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-          <a class="nav-link active fas fa-comment-alt text-center" id="v-pills-chat-tab" data-toggle="pill"
+        <div class="nav flex-column nav-pills coluna-icons-custom" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <a class="nav-link active fas fa-comment-alt text-center icon-custom" id="v-pills-chat-tab" data-toggle="pill"
             href="#v-pills-chat" role="tab" aria-controls="v-pills-chat" aria-selected="true">
-            <span class="alinhamento-icons-tabs">Chat</span>
+            <span class="alinhamento-icons-tabs negrito-100">Chat</span>
           </a>
 
-          <a class="nav-link far fa-user text-center" id="v-pills-pergunte-tab" data-toggle="pill"
+          <a class="nav-link far fa-user text-center icon-custom" id="v-pills-pergunte-tab" data-toggle="pill"
             href="#v-pills-pergunte" role="tab" aria-controls="v-pills-pergunte" aria-selected="false">
-            <span class="alinhamento-icons-tabs">Pergunte</span>
+            <span class="alinhamento-icons-tabs negrito-100">Pergunte</span>
           </a>
 
-          <a class="nav-link far fa-list-alt text-center	
+          <a class="nav-link far fa-list-alt text-center icon-custom	
                                               " id="v-pills-enquete-tab" data-toggle="pill" href="#v-pills-enquete"
             role="tab" aria-controls="v-pills-enquete" aria-selected="false">
-            <span class="alinhamento-icons-tabs">Enquete</span>
+            <span class="alinhamento-icons-tabs negrito-100">Enquete</span>
           </a>
 
-          <a class="nav-link fas fa-link text-center" id="v-pills-link-tab" data-toggle="pill" href="#v-pills-link"
+          <a class="nav-link fas fa-link text-center icon-custom" id="v-pills-link-tab" data-toggle="pill" href="#v-pills-link"
             role="tab" aria-controls="v-pills-link" aria-selected="false">
-            <span class="alinhamento-icons-tabs">Links</span>
+            <span class="alinhamento-icons-tabs negrito-100">Links</span>
           </a>
         </div>
       </div>
@@ -530,7 +532,9 @@
           <div>
             <i type="button" class="float-right fa fa-expand button-right"></i>
             <i type="button" class="float-right fa fa-object-group button-right"></i>
-            <p class="text-muted text-small">790 pessoas online</p>
+            <p class="text-muted text-small ml-0 mt-20">
+              <span class="info-pessoas-online">790 pessoas online</span>
+            </p>
           </div>
 
 
@@ -540,40 +544,121 @@
           <p class="font-weight-bold p-collapse">Thales Moreira<i class="fa fa-angle-up" data-toggle="collapse"
               href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"></i></p>
           <div class="collapse" id="collapseExample">
-            <div class="card card-body">
+            <div class="card card-body mb-10">
               Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim
               keffiyeh
               helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
             </div>
           </div>
 
+          <!--Tabs de Navegação-->
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="salas-tab" data-toggle="tab" href="#salas" role="tab" aria-controls="salas" aria-selected="true">SALAS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="agenda-tab" data-toggle="tab" href="#agenda" role="tab" aria-controls="agenda" aria-selected="false">AGENDA</a>
+            </li>
+          </ul>
+          <!--Salas-->
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="salas" role="tabpanel" aria-labelledby="salas-tab">
+              <div class="add-scroll">
+                <div class="card-group">
+                  <div class="row">
+  
+                    <div class="col-md-5">
+                      <div class="card">
+                        <img src="img/img1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Desafios e Pesrpectivas para o mercado de evento</p>
+                          <small class="text-muted">Rafael Pongelupi</small>
+                        </div>
+                      </div>
+                    </div>
+  
+                    <div class="col-md-5">
+                      <div class="card">
+                        <img src="img/img1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Desafios e Pesrpectivas para o mercado de evento</p>
+                          <small class="text-muted">Rafael Pongelupi</small>
+                        </div>
+                      </div>
+                    </div>
+  
+                    <div class="col-md-5">
+                      <div class="card">
+                        <img src="img/img1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Desafios e Pesrpectivas para o mercado de evento</p>
+                          <small class="text-muted">Rafael Pongelupi</small>
+                        </div>
+                      </div>
+                    </div>
+  
+                    <div class="col-md-5">
+                      <div class="card">
+                        <img src="img/img1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Desafios e Pesrpectivas para o mercado de evento</p>
+                          <small class="text-muted">Rafael Pongelupi</small>
+                        </div>
+                      </div>
+                    </div>
+  
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <!--Agenda-->
+            <div class="tab-pane fade" id="agenda" role="tabpanel" aria-labelledby="agenda-tab">
+              <div class="row">
+                <!--Horarios-->
+                <div id="horario" class="col-md-2">
+                  <div class="row">
+                    <div class="col-md-12 text-right">
+                      <p id="dia" class="m-0 negrito-700">05 ABR</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12 text-right">
+                      <p id="hora" class="m-0 negrito-700">16h</p>
+                    </div>
+                  </div>
+                </div>
+                <!--Principal-->
+                <div class="col-md-10">
+                  <h5 class="titulo-item-horario-agenda">Desafios e Perspectivas para o mercado de evento </h5>
 
-          <div class="card-group">
-            <div class="card">
-              <img src="img/img1.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Desafios e Pesrpectivas para o mercado de evento</p>
-                <small class="text-muted">Rafael Pongelupi</small>
-              </div>
-            </div>
-            <div class="card">
-              <img src="img/img1.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Desafios e Pesrpectivas para o mercado de evento</p>
-                <small class="text-muted">Rafael Pongelupi</small>
-              </div>
-            </div>
-            <div class="card">
-              <img src="img/img1.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Desafios e Pesrpectivas para o mercado de evento</p>
-                <small class="text-muted">Rafael Pongelupi</small>
+                  <div class="lista-agenda">
+                    <p class="descricao-agenda">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
+                    <div class="item-horario-agenda">
+                      <i class="far fa-clock"></i>
+                      <span class="horario-agenda">16h30 - 17h00</span>
+                    </div>
+
+                    <div class="info-palestrante">
+                      <div class="d-flex">
+                        <img src="img/user.jpg" class="align-self-center">
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <p class="align-self-start mb-0 fs-12 negrito-700">Palestrante 1</p>
+                        </div>
+                        <div class="col-md-12">
+                          <p class="descricao-palestrante">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </form>
-
-
 
     </div>
 
