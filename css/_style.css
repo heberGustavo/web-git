@@ -72,6 +72,18 @@ footer {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+
+  #carousel {
+    margin-top: -25%;
+    margin-left: -8%;
+  }
+
+  #carousel2 {
+    margin-top: -25%;
+    margin-right: -7%;
+
+  }
+
 }
 
 .pt-20 {
@@ -465,6 +477,21 @@ footer {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+#carousel {
+  margin-top: -18%;
+  margin-left: -8%;
+}
+
+#carousel span {
+  background-color: #000;
+}
+
+#carousel2 {
+  margin-top: -18%;
+  margin-right: -7%;
+
 }
 
 #img-user {
