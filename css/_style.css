@@ -64,6 +64,11 @@ section div button {
   margin-right: 1%;
 }
 
+#usuario-card div span {
+  margin-left: -50px;
+}
+
+
 footer {
   margin-top: 5%;
 }
@@ -195,6 +200,17 @@ footer {
   background-color: #08BF1A;
 }
 
+.button-live-red {
+  border-radius: 8px 8px 8px 0;
+  border-color: #fd3944;
+  font-size: 60%;
+  height: 25px;
+  width: 45px;
+  background-color: #fd3944;
+  margin-top: 5%;
+  color: #fff;
+}
+
 .p-home {
   margin-top: 5%;
   font-size: 25px;
@@ -210,6 +226,7 @@ footer {
 .p-collapse i {
   margin-left: 98%;
 }
+
 
 #horario #dia{
   color: #e92b7b;
@@ -252,9 +269,21 @@ footer {
   border-radius: 5px; 
 }
 
+.pessoa-apresentador {
+  border: 1px solid #bdbdbd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 .titulo-item-horario-agenda{
   font-weight: 700;
   width: 290px;
+}
+
+.descricao-agenda {
+  font-weight: 700;
+  margin-left: 0;
+  margin-bottom: 0;
 }
 
 .horario-evento-salas{
@@ -498,11 +527,19 @@ footer {
   width: 35px;
   height: 35px;
   border-radius: 100%;
+  display: inline-block;
+  margin-top: -15%;
 }
 
 #video-atual {
   height: 400px;
   width: 800px;
+}
+
+#video-atual2 {
+  height: 400px;
+  width: 800px;
+  margin-top: -10px;
 }
 
 #navbar-text {
