@@ -413,6 +413,31 @@ footer {
   background: #034CD9;
 }
 
+.titulo-sessao-cards{
+  border-bottom: 1px solid lightgray;
+}
+
+.card-timeline{
+  background: white;
+}
+
+.bloco-curtidas{
+  display: inline-block;
+}
+
+.bloco-comentarios{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.fundo-card{
+  background-color: #F5F8FD;
+}
+
+.info-users .tempo{
+  color: #5B98FF;
+}
+
 .descricao-pesquisa {
   margin: 15px 0;
 }
@@ -528,18 +553,11 @@ footer {
   height: 35px;
   border-radius: 100%;
   display: inline-block;
-  margin-top: -15%;
 }
 
 #video-atual {
   height: 400px;
   width: 800px;
-}
-
-#video-atual2 {
-  height: 400px;
-  width: 800px;
-  margin-top: -10px;
 }
 
 #navbar-text {
@@ -607,11 +625,17 @@ footer {
   #corpo-tab{
     margin-right: -27%;
   }
+  .formulario-range{
+    padding: 0;
+  }
 
  }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .seta-principal{
     margin-left: -4%;
+  }
+  .formulario-range{
+    padding: 10px;
   }
  }
